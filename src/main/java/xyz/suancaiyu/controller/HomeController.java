@@ -1,5 +1,6 @@
 package xyz.suancaiyu.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,22 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
  * @author puruidong
  * @version 1.0 2017/10/19
  */
-@RestController
+@Controller
 public class HomeController {
 
     @RequestMapping("/")
     public String index() {
-        System.out.println("*---------------------------------");
-        System.out.println("*---------------------------------");
-        System.out.println("*---------------------------------");
-        System.out.println("*---------------------------------");
-        System.out.println("*---------------------------------");
-        System.out.println("*---------------------------------");
-        System.out.println("*---------------------------------");
-        System.out.println("*---------------------------------");
-        System.out.println("*---------------------------------");
-        System.out.println("*---------------------------------");
-        System.out.println("*---------------------------------");
         String home = "hello";
         return "home";
     }

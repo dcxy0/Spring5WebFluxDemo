@@ -10,7 +10,6 @@ import org.thymeleaf.spring5.view.reactive.ThymeleafReactiveViewResolver;
 import org.thymeleaf.templatemode.TemplateMode;
 
 /**
- * Created by puruidong on 2017/10/19.
  *
  * @author puruidong
  * @version 1.0 2017/10/19
